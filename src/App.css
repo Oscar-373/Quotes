@@ -1,0 +1,58 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  max-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-text{
+  width: 600px;
+  height: 350px;
+  border: 3px solid rgb(81, 71, 71);
+  border-radius: 20px;
+  box-shadow: 2px 2px 50px gray;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+}
+
+.sub-text i{
+  font-size: 60px;
+}
+
+.sub-text{
+  display: flex;
+  height: 175px;
+}
+
+.sub-text h3{
+  margin-left: 20px;
+}
+
+.button{
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+button{
+  border: 3px solid blue;
+  background-color: rgb(136, 0, 255);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgb(38, 0, 255);
+} 
+.author{
+  text-align: center;
+}
